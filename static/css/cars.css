@@ -1,0 +1,69 @@
+html, body, header, #intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355C;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355C;
+    }
+}
+
+.text-center {
+    text-align: center
+}
+
+
+.text-space {
+    padding-bottom: 40px
+}
+
+.text-space h5 {
+    margin-bottom: 12px
+}
+
+.g-header-text {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+    font-weight: 600
+}
+
+.general-list ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 15px
+}
+
+.general-list ul li a {
+    display: inline-block;
+    padding-top: 10px;
+    color: #6d7579
+}
+
+.general-list ul li a:after {
+    display: inline-block;
+    content: url(//d310p4tz9tc9pz.cloudfront.net/assets/icons/icon-chevron-circle-right-gray-0ef798f4b28bf77c789e2160f421d779.svg);
+    margin-left: 6px;
+    vertical-align: sub
+}
+
+.general-list ul li a:hover {
+    color: #1E7BE2
+}

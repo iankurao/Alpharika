@@ -1,0 +1,108 @@
+.text-center {
+    text-align: center
+}
+
+.col-centered {
+    float: none !important;
+    margin: 0 auto
+}
+
+.btn-orange-fill:focus {
+    color: #fff
+}
+
+
+.btn-orange-fill {
+    display: inline-block;
+    cursor: pointer;
+    padding: 14px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+    font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Avenir, "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #1E7BE2;
+    color: #fff;
+    background-size: 200%;
+    background-position: 50%;
+    -webkit-transition: background-color, 0.3s;
+    -moz-transition: background-color, 0.3s;
+    transition: background-color, 0.3s
+}
+
+.btn-orange-fill:hover {
+    background: #186FCE;
+    color: #fff !important
+}
+
+
+.btn-orange-fill:visited {
+    color: #fff
+}
+
+.btn-orange-fill:active {
+    background-color: #1a6cc8;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+}
+
+.spaceb-10 {
+    margin-bottom: 10px
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+    }
+    .active-pink input[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+    }
+    .active-purple-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+    }
+    .active-purple input[type=text] {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+    }
+    .active-cyan-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+    }
+    .active-cyan input[type=text] {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+    }
+
+
+    .shadow-box-fill {
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 3px;
+        overflow: hidden;
+        transition: box-shadow 0.3s;
+        margin-bottom: 10px;
+        z-index: 99;
+        border: 1px solid #e7ebeb
+    }
+    
+    .shadow-box-fill .make-icon {
+        float: right;
+        width: auto;
+        height: auto;
+        margin-top: -6px;
+        max-height: 45px;
+        max-width: 45px
+    }
+    
+    .shadow-box-fill:hover {
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1)
+    }
