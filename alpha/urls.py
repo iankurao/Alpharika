@@ -5,6 +5,7 @@ from django.conf import settings
 
 urlpatterns=[
     url('^$', views.index, name="home"),
+    url(r'^talent/$', views.talent_management, name='Talent'),
     
 ]
 

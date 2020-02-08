@@ -5,3 +5,7 @@ from django.http import HttpResponse,Http404,HttpResponseRedirect
 def index(request):
     title='Home'
     return render(request,"index.html",{"title":title})
+
+def talent_management(request):
+    title='Talent'
+    return render(request,"talent_management.html",{"title":title})
