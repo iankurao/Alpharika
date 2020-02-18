@@ -6,6 +6,10 @@ from django.conf import settings
 urlpatterns=[
     url('^$', views.index, name="home"),
     url(r'^talent/$', views.talent_management, name='Talent'),
+    url(r'^lisa/$', views.lisa_kiarie, name='Lisa'),
+    url(r'^lisa/about$', views.about, name='About'),
+    url(r'^lisa/blogs$', views.lisa_blogs, name='Blogs'),
+    url(r'^lisa/faq$', views.faq, name='Faq'),
     
 ]
 
